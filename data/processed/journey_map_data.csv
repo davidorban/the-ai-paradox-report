@@ -1,0 +1,8 @@
+phase,personal_sentiment,societal_sentiment,divergence_zone,phase_order
+First Exposure,3,5,FALSE,1
+Learning Phase,4,4,FALSE,2
+Regular Use,6,2,TRUE,3
+Current State,7,-1,TRUE,4
+1 Year Projection,8,-3,TRUE,5
+5 Year Vision,9,-5,TRUE,6
+

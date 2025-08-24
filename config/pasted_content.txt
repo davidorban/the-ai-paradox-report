@@ -1,0 +1,20 @@
+          "description": "Low personal and societal benefit"
+        }
+      },
+      "data_points": [
+        {"id": 1, "x": 8, "y": 9, "size": 3, "label": "Singularity Optimist"},
+        {"id": 2, "x": 7, "y": 8, "size": 2, "label": "Climate Tech Founder"},
+        {"id": 3, "x": 9, "y": 6, "size": 2, "label": "Automation Visionary"},
+        {"id": 4, "x": 6, "y": 3, "size": 4, "label": "Productivity Users"},
+        {"id": 5, "x": 8, "y": -2, "size": 5, "label": "Efficient but Worried"},
+        {"id": 6, "x": 7, "y": -3, "size": 6, "label": "Tool Users with Concerns"},
+        {"id": 7, "x": 5, "y": -4, "size": 3, "label": "Identity Questioners"},
+        {"id": 8, "x": -3, "y": -6, "size": 2, "label": "Technical Skeptic"},
+        {"id": 9, "x": -2, "y": -4, "size": 1, "label": "Hallucination Critics"},
+        {"id": 10, "x": 4, "y": 1, "size": 3, "label": "Cautious Adopters"},
+        {"id": 11, "x": 3, "y": 0, "size": 2, "label": "Wait and See"},
+        {"id": 12, "x": 6, "y": -1, "size": 4, "label": "Professional Pragmatists"}
+      ],
+      "statistics": {
+        "quadrant_distribution": {
+          "Win-Win Optimists": "13%",

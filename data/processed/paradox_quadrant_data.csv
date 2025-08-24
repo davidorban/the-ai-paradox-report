@@ -1,0 +1,15 @@
+user_id,personal_benefit,societal_benefit,quadrant,user_type,weight
+1,8,9,Win-Win Optimists,Singularity Optimist,3
+2,7,8,Win-Win Optimists,Climate Tech Founder,2
+3,9,6,Win-Win Optimists,Automation Visionary,2
+4,6,3,Win-Win Optimists,Productivity Users,4
+5,8,-2,Pragmatic Paradox,Efficient but Worried,5
+6,7,-3,Pragmatic Paradox,Tool Users with Concerns,6
+7,5,-4,Pragmatic Paradox,Identity Questioners,3
+8,-3,-6,Deep Skeptics,Technical Skeptic,2
+9,-2,-4,Deep Skeptics,Hallucination Critics,1
+10,4,1,Win-Win Optimists,Cautious Adopters,3
+11,3,0,Win-Win Optimists,Wait and See,2
+12,6,-1,Pragmatic Paradox,Professional Pragmatists,4
+13,-4,3,Altruistic Skeptics,Social Advocate,1
+

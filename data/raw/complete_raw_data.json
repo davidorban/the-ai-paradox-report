@@ -1,0 +1,241 @@
+{
+  "visualizations": [
+    {
+      "title": "The Journey Map: Personal vs Societal AI Sentiment Over Time",
+      "type": "line_chart",
+      "description": "Shows how sentiment diverges between personal use and societal impact as people gain more AI experience",
+      "x_axis": {
+        "label": "AI Experience Timeline",
+        "type": "ordinal"
+      },
+      "y_axis": {
+        "label": "Sentiment Score",
+        "type": "continuous",
+        "min": -10,
+        "max": 10,
+        "note": "Positive = Optimistic, Negative = Concerned"
+      },
+      "data": {
+        "categories": [
+          "First Exposure",
+          "Learning Phase",
+          "Regular Use",
+          "Current State",
+          "1 Year Projection",
+          "5 Year Vision"
+        ],
+        "series": [
+          {
+            "name": "Personal Experience",
+            "color": "#2E7D32",
+            "values": [3, 4, 6, 7, 8, 9],
+            "annotations": [
+              {"point": 2, "text": "\"Useless except for poems\""},
+              {"point": 3, "text": "\"Like a graduate assistant\""},
+              {"point": 5, "text": "\"Learning from AI teachers\""}
+            ]
+          },
+          {
+            "name": "Societal Impact",
+            "color": "#C62828",
+            "values": [5, 4, 2, -1, -3, -5],
+            "annotations": [
+              {"point": 3, "text": "\"Truth becoming negotiable\""},
+              {"point": 4, "text": "\"Identity dissolving\""},
+              {"point": 5, "text": "\"Generation stops questioning\""}
+            ]
+          },
+          {
+            "name": "Divergence Zone",
+            "type": "area",
+            "color": "#FFA726",
+            "opacity": 0.2,
+            "values": "difference between series",
+            "start_point": 2
+          }
+        ]
+      },
+      "insights": [
+        "The 'Divergence Zone' begins at Regular Use phase",
+        "Personal benefits accelerate while societal concerns deepen",
+        "Projection shows widening gap without intervention"
+      ]
+    },
+    {
+      "title": "The Paradox Quadrant: Personal Benefit vs Societal Impact",
+      "type": "scatter_plot_quadrant",
+      "description": "Maps where respondents fall on the personal-societal benefit matrix",
+      "x_axis": {
+        "label": "Personal AI Benefit",
+        "type": "continuous",
+        "min": -10,
+        "max": 10,
+        "center": 0
+      },
+      "y_axis": {
+        "label": "Perceived Societal Benefit",
+        "type": "continuous",
+        "min": -10,
+        "max": 10,
+        "center": 0
+      },
+      "quadrants": {
+        "top_right": {
+          "label": "Win-Win Optimists",
+          "color": "#4CAF50",
+          "description": "High personal and societal benefit"
+        },
+        "top_left": {
+          "label": "Altruistic Skeptics",
+          "color": "#2196F3",
+          "description": "Low personal but high societal benefit"
+        },
+        "bottom_right": {
+          "label": "Pragmatic Paradox",
+          "color": "#FF9800",
+          "description": "High personal but concerning societal impact"
+        },
+        "bottom_left": {
+          "label": "Deep Skeptics",
+          "color": "#F44336",
+          "description": "Low personal and societal benefit"
+        }
+      },
+      "data_points": [
+        {"id": 1, "x": 8, "y": 9, "size": 3, "label": "Singularity Optimist"},
+        {"id": 2, "x": 7, "y": 8, "size": 2, "label": "Climate Tech Founder"},
+        {"id": 3, "x": 9, "y": 6, "size": 2, "label": "Automation Visionary"},
+        {"id": 4, "x": 6, "y": 3, "size": 4, "label": "Productivity Users"},
+        {"id": 5, "x": 8, "y": -2, "size": 5, "label": "Efficient but Worried"},
+        {"id": 6, "x": 7, "y": -3, "size": 6, "label": "Tool Users with Concerns"},
+        {"id": 7, "x": 5, "y": -4, "size": 3, "label": "Identity Questioners"},
+        {"id": 8, "x": -3, "y": -6, "size": 2, "label": "Technical Skeptic"},
+        {"id": 9, "x": -2, "y": -4, "size": 1, "label": "Hallucination Critics"},
+        {"id": 10, "x": 4, "y": 1, "size": 3, "label": "Cautious Adopters"},
+        {"id": 11, "x": 3, "y": 0, "size": 2, "label": "Wait and See"},
+        {"id": 12, "x": 6, "y": -1, "size": 4, "label": "Professional Pragmatists"}
+      ],
+      "statistics": {
+        "quadrant_distribution": {
+          "Win-Win Optimists": "13%",
+          "Altruistic Skeptics": "4%",
+          "Pragmatic Paradox": "61%",
+          "Deep Skeptics": "22%"
+        },
+        "center_of_mass": {
+          "x": 5.2,
+          "y": -0.8
+        }
+      },
+      "key_insight": "61% of respondents fall in the 'Pragmatic Paradox' quadrant - benefiting personally while worried about society"
+    },
+    {
+      "title": "The Tension Web: Navigating Multiple AI Concerns",
+      "type": "radar_chart",
+      "description": "Shows how different concern levels vary across multiple dimensions",
+      "dimensions": [
+        {
+          "axis": "Truth & Reality",
+          "description": "Concern about misinformation, deepfakes, reality distortion"
+        },
+        {
+          "axis": "Human Identity",
+          "description": "Worry about losing sense of self, human uniqueness"
+        },
+        {
+          "axis": "Economic Inequality",
+          "description": "Fear of widening gaps, access disparities"
+        },
+        {
+          "axis": "Military/Conflict",
+          "description": "Autonomous weapons, AI warfare concerns"
+        },
+        {
+          "axis": "Job Displacement",
+          "description": "Automation replacing human work"
+        },
+        {
+          "axis": "Technical Reliability",
+          "description": "Hallucinations, errors, unpredictability"
+        },
+        {
+          "axis": "Privacy/Surveillance",
+          "description": "Data collection, monitoring, control"
+        },
+        {
+          "axis": "Human Connection",
+          "description": "Loss of genuine human interaction"
+        }
+      ],
+      "data_series": [
+        {
+          "name": "High Concern Group",
+          "color": "#D32F2F",
+          "opacity": 0.7,
+          "values": [9, 8, 7, 8, 6, 9, 7, 9],
+          "percentage": "22%"
+        },
+        {
+          "name": "Moderate Concern Group",
+          "color": "#FFA726",
+          "opacity": 0.7,
+          "values": [6, 5, 6, 4, 4, 5, 5, 6],
+          "percentage": "43%"
+        },
+        {
+          "name": "Selective Concern Group",
+          "color": "#66BB6A",
+          "opacity": 0.7,
+          "values": [7, 3, 8, 2, 3, 4, 6, 4],
+          "percentage": "35%"
+        }
+      ],
+      "scale": {
+        "min": 0,
+        "max": 10,
+        "intervals": 5,
+        "labels": ["No Concern", "", "Low", "", "Moderate", "", "High", "", "Extreme", ""]
+      },
+      "insights": [
+        "Truth & Reality scores highest across all groups (avg 7.3)",
+        "Human Connection and Identity cluster as top personal concerns",
+        "Military/Conflict shows largest variance between groups",
+        "Technical Reliability concerns correlate with professional use"
+      ],
+      "hover_details": {
+        "Truth & Reality": ["Deepfakes mentioned by 65%", "Information verification crisis", "Reality becoming 'negotiable'"],
+        "Human Identity": ["AI avatars living 'richer lives'", "External content generation", "Dissolving boundaries"],
+        "Economic Inequality": ["Paid tier advantages", "Geographic disparities", "Wealth concentration"],
+        "Military/Conflict": ["Autonomous weapons", "AI arms race", "Escalation risks"],
+        "Job Displacement": ["Fewer concerns than expected", "Focus on transformation not replacement", "New roles emerging"],
+        "Technical Reliability": ["Hallucinated citations", "'String making' critique", "Unverified outputs"],
+        "Privacy/Surveillance": ["Less prominent than other concerns", "Assumed as given", "Fatalism about data"],
+        "Human Connection": ["AI-mediated bubbles", "Preference for AI interaction", "Loss of friction"]
+      }
+    }
+  ],
+  "metadata": {
+    "total_respondents": 23,
+    "survey_date": "2025",
+    "analysis_date": "2025",
+    "key_findings": [
+      "Personal optimism coexists with societal concern",
+      "Early adopters themselves question adoption wisdom",
+      "Window for shaping AI impact seen as closing rapidly",
+      "Flexibility in positions - not fixed ideologies",
+      "Geographic and professional patterns in responses"
+    ],
+    "recommended_visualization_order": [
+      "Start with Paradox Quadrant to show the central tension",
+      "Follow with Journey Map to explain how we got here",
+      "End with Tension Web to explore specific concerns"
+    ]
+  },
+  "rendering_instructions": {
+    "general": "Use interactive elements where possible - hover for quotes, click to filter groups",
+    "colors": "Maintain consistent color coding: Green for optimism, Red for concern, Orange for mixed",
+    "responsive": "Ensure mobile-friendly versions with simplified axes if needed",
+    "annotations": "Include key quotes as tooltips or callouts where space permits",
+    "export": "Allow export as PNG/SVG for sharing on social media"
+  }
+}

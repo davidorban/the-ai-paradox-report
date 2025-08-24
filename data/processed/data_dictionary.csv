@@ -1,0 +1,16 @@
+dataset,variable,type,scale,description,notes
+journey_map,phase,categorical,ordinal,"AI experience stage from first exposure to 5-year vision","Six phases: First Exposure, Learning Phase, Regular Use, Current State, 1 Year Projection, 5 Year Vision"
+journey_map,personal_sentiment,numeric,interval,"Individual AI benefit perception","-10 (extremely negative) to +10 (extremely positive)"
+journey_map,societal_sentiment,numeric,interval,"Collective AI impact perception","-10 (extremely negative) to +10 (extremely positive)"
+journey_map,divergence_zone,boolean,nominal,"Indicator for phases showing sentiment divergence","TRUE for Regular Use phase and beyond"
+journey_map,phase_order,numeric,ordinal,"Sequential order of phases","1-6 corresponding to temporal progression"
+paradox_quadrant,user_id,numeric,nominal,"Unique respondent identifier","1-13 for individual survey participants"
+paradox_quadrant,personal_benefit,numeric,interval,"Self-reported personal AI benefit","-10 (no benefit) to +10 (high benefit)"
+paradox_quadrant,societal_benefit,numeric,interval,"Perceived societal AI impact","-10 (harmful) to +10 (beneficial)"
+paradox_quadrant,quadrant,categorical,nominal,"User classification based on benefit dimensions","Win-Win Optimists, Altruistic Skeptics, Pragmatic Paradox, Deep Skeptics"
+paradox_quadrant,user_type,categorical,nominal,"Descriptive label for user archetype","Two-word descriptive labels based on AI usage patterns"
+paradox_quadrant,weight,numeric,ratio,"Response confidence/influence factor","1-6 scale representing relative importance or sample size"
+tension_web,axis,categorical,nominal,"AI concern dimension","Eight domains: Truth & Reality, Human Identity, Economic Inequality, Military/Conflict, Job Displacement, Technical Reliability, Privacy/Surveillance, Human Connection"
+tension_web,value,numeric,interval,"Concern level for specific dimension","0 (no concern) to 10 (extreme concern)"
+tension_web,category,categorical,nominal,"User group classification","High Concern Group (22%), Moderate Concern Group (43%), Selective Concern Group (35%)"
+

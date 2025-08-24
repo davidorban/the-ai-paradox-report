@@ -1,0 +1,64 @@
+# GitHub Pages Configuration for The AI Paradox Report
+
+title: The AI Paradox Report
+description: Early Adopters Love AI But Fear Its Future - A comprehensive analysis of AI sentiment
+author: David Orban
+email: contact@davidorban.com
+url: https://davidorban.github.io
+baseurl: /the-ai-paradox-report
+
+# Build settings
+markdown: kramdown
+theme: null  # Using custom HTML instead of Jekyll theme
+
+# Exclude files from site build
+exclude:
+  - .claude
+  - .claude-flow
+  - .hive-mind
+  - .roo
+  - .swarm
+  - claude-flow
+  - claude-flow.bat
+  - claude-flow.ps1
+  - CLAUDE.md
+  - coordination
+  - memory
+  - config/claude-flow.config.json
+  - src/*.py
+  - LICENSE
+  - .gitignore
+
+# Include specific files
+include:
+  - index.html
+  - README.md
+  - report
+  - data
+  - visualizations
+  - src
+
+# Collections for better organization
+collections:
+  report:
+    output: true
+    permalink: /report/:name
+  data:
+    output: true
+    permalink: /data/:name
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
+
+# GitHub Pages gem
+plugins:
+  - jekyll-relative-links
+
+# Enable relative links for markdown files
+relative_links:
+  enabled: true
+  collections: true

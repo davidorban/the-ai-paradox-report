@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI Paradox Report - Early Adopters Love AI But Fear Its Future</title>
+    <meta name="description" content="A comprehensive analysis of AI sentiment among early adopters reveals a striking contradiction: those driving adoption are simultaneously concerned about its implications.">
+    <meta name="author" content="David Orban">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="The AI Paradox Report">
+    <meta property="og:description" content="61% of AI users experience high personal benefits while harboring significant societal concerns">
+    <meta property="og:image" content="visualizations/journey-map-final.png">
+    <meta property="og:url" content="https://davidorban.github.io/the-ai-paradox-report">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The AI Paradox Report">
+    <meta name="twitter:description" content="The more we use AI, the more we worry about everyone else using it">
+    <meta name="twitter:image" content="visualizations/journey-map-final.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-size: 1.25rem;
+            color: #718096;
+            margin-bottom: 2rem;
+        }
+        
+        .key-finding {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h2 {
+            color: #4a5568;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .card p {
+            color: #718096;
+            margin-bottom: 1rem;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            color: #718096;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .visualization {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .visualization img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .navigation {
+            text-align: center;
+            margin: 3rem 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero {
+                padding: 2rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>The AI Paradox Report</h1>
+            <p class="subtitle">Early Adopters Love AI But Fear Its Future</p>
+            
+            <div class="key-finding">
+                🔑 Key Finding: The more we use AI, the more we worry about everyone else using it.
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">61%</div>
+                    <div class="stat-label">Pragmatic Paradox</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">7.0/10</div>
+                    <div class="stat-label">Truth Concern</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">23</div>
+                    <div class="stat-label">Early Adopters</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">84.8%</div>
+                    <div class="stat-label">AI-Enhanced</div>
+                </div>
+            </div>
+            
+            <p>This research uncovers a fascinating paradox in artificial intelligence adoption: the same people driving AI innovation and usage are increasingly worried about its societal implications. Through analysis of 23 early AI adopters, we identify "The Pragmatic Paradox" - a phenomenon where 61% of users experience significant personal benefits from AI while simultaneously harboring deep concerns about its broader impact on society.</p>
+        </div>
+        
+        <div class="grid">
+            <div class="card">
+                <h2>📊 The Research</h2>
+                <p>Comprehensive analysis of AI sentiment among early adopters, revealing the tension between personal benefits and societal concerns.</p>
+                <a href="report/The-AI-Paradox-Report.md" class="btn">Read Full Report</a>
+            </div>
+            
+            <div class="card">
+                <h2>📈 Interactive Visualizations</h2>
+                <p>Explore the data through interactive charts showing sentiment evolution, user classifications, and concern dimensions.</p>
+                <a href="visualizations/journey_map_interactive.html" class="btn">Journey Map</a>
+                <a href="visualizations/paradox_quadrant_interactive.html" class="btn">Paradox Quadrant</a>
+                <a href="visualizations/tension_web_interactive.html" class="btn">Tension Web</a>
+            </div>
+            
+            <div class="card">
+                <h2>📚 Academic References</h2>
+                <p>Grounded in established theoretical frameworks including risk society theory, cognitive polyphasia, and dual attitudes models.</p>
+                <a href="report/references.md" class="btn">View References</a>
+            </div>
+        </div>
+        
+        <div class="visualization">
+            <h2>The AI Sentiment Journey</h2>
+            <img src="visualizations/journey-map-final.png" alt="AI Sentiment Journey Over Time">
+            <p>As users progress from skeptics to power users, their personal sentiment rises while societal concerns deepen, creating the "Divergence Zone" where the paradox emerges.</p>
+        </div>
+        
+        <div class="visualization">
+            <h2>The Paradox Quadrant</h2>
+            <img src="visualizations/paradox-quadrant-final.png" alt="Paradox Quadrant Analysis">
+            <p>61% of respondents fall into the "Pragmatic Paradox" quadrant - extracting real value from AI while worrying about broader implications.</p>
+        </div>
+        
+        <div class="visualization">
+            <h2>The Tension Web</h2>
+            <img src="visualizations/tension-web-final.png" alt="Tension Web of AI Concerns">
+            <p>Truth and reality distortion ranks highest (7.0/10) among concerns, significantly outweighing job displacement (4.1/10).</p>
+        </div>
+        
+        <div class="navigation">
+            <h2>Explore the Research</h2>
+            <a href="https://github.com/davidorban/the-ai-paradox-report" class="btn">GitHub Repository</a>
+            <a href="data/survey_data_anonymized.md" class="btn btn-secondary">View Data</a>
+            <a href="src/analysis_code.py" class="btn btn-secondary">Analysis Code</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 David Orban | <a href="https://davidorban.com">davidorban.com</a></p>
+        <p>This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+        <p>AI-Enhanced Research using GPT-5, Claude Opus, Claude Flow, and Manus</p>
+    </footer>
+</body>
+</html>

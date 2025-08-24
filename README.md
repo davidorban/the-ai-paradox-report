@@ -4,10 +4,15 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Data](https://img.shields.io/badge/data-23_respondents-green.svg)]()
+[![GitHub Pages](https://img.shields.io/badge/View-Live_Site-blue?style=flat&logo=github)](https://davidorban.github.io/the-ai-paradox-report)
 
 > *A comprehensive analysis of AI sentiment among early adopters reveals a striking contradiction at the heart of our AI moment: those driving adoption are simultaneously concerned about its implications.*
 
 **🔑 Key Finding:** The more we use AI, the more we worry about everyone else using it.
+
+## 🌐 View Online
+
+**[View the interactive report on GitHub Pages →](https://davidorban.github.io/the-ai-paradox-report)**
 
 ## 📊 Overview
 

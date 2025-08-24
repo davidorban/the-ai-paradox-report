@@ -341,7 +341,7 @@ The solution to the AI paradox isn't to choose between benefits and risks, but t
 
 **Their message is clear:** We can have AI systems that enhance human capability and wellbeing, but only if we address the legitimate concerns about truth, inequality, and social impact that emerge from actual experience with these systems.
 
-## Conclusion: The Bottom Line
+## Conclusions
 
 **We're witnessing something unprecedented in the history of technological adoption:** A technology's biggest beneficiaries are also its most thoughtful critics. This isn't resistance to change - it's a call for intentional, responsible development.
 
@@ -402,7 +402,7 @@ The extensive use of AI tools in producing this research is not merely a methodo
 ### Citation
 
 When referencing this research, please use:
-Orban, D. (2025). *The AI Paradox Report: Early Adopters Love AI But Fear Its Future*. AI-Enhanced Research using GPT-5, Claude Opus, Claude Flow, and Manus. Available at: davidorban.com
+Orban, D. (2025). *The AI Paradox Report: Early Adopters Love AI But Fear Its Future*. Available at: davidorban.com
 
 ### License
 
@@ -410,21 +410,21 @@ This report is published under Creative Commons Attribution 4.0 International (C
 
 ## References
 
-1. Beck, Ulrich. *Risk Society: Towards a New Modernity*. London: Sage Publications, 1992. https://uk.sagepub.com/en-gb/eur/risk-society/book205094
+1. Beck, Ulrich. *Risk Society: Towards a New Modernity*. London: Sage Publications, 1992. https://uk.sagepub.com/en-gb/eur/risk-society/book203184
 
-2. Du, Shuili, and Chao Xie. "Paradoxes of Artificial Intelligence in Consumer Markets: Ethical Challenges and Opportunities." *Journal of Business Research* 129 (2021): 961–974. https://doi.org/10.1016/j.jbusres.2020.11.053
+2. Du, Shuili, and Chao Xie. "Paradoxes of Artificial Intelligence in Consumer Markets: Ethical Challenges and Opportunities." *Journal of Business Research* 129 (2021): 961–974. https://www.sciencedirect.com/science/article/abs/pii/S0148296320305312
 
-3. Jasanoff, Sheila, and Sang-Hyun Kim, eds. *Dreamscapes of Modernity: Sociotechnical Imaginaries and the Fabrication of Power*. Chicago: University of Chicago Press, 2015. https://press.uchicago.edu/ucp/books/book/chicago/D/bo20865521.html
+3. Jasanoff, Sheila, and Sang-Hyun Kim, eds. *Dreamscapes of Modernity: Sociotechnical Imaginaries and the Fabrication of Power*. Chicago: University of Chicago Press, 2015. https://press.uchicago.edu/ucp/books/book/chicago/D/bo20836025.html
 
-4. Jovchelovitch, Sandra. "Re-thinking the Diversity of Knowledge: Cognitive Polyphasia, Belief and Representation." *Psychology and Society* 5 (2002): 121–138. http://www.psychologyandsociety.org/jovchelovitch.pdf
+4. Jovchelovitch, Sandra. "Re-thinking the Diversity of Knowledge: Cognitive Polyphasia, Belief and Representation." *Psychology and Society* 5 (2002): 121–138. https://www.researchgate.net/publication/30522722_Re-thinking_the_diversity_of_knowledge_Cognitive_polyphasia_belief_and_representation
 
-5. KPMG. *The American Trust in AI Paradox: Adoption Outpaces Governance*. 2025. https://kpmg.com/us/en/articles/2025/trust-in-ai-paradox.html
+5. KPMG. *The American Trust in AI Paradox: Adoption Outpaces Governance*. 2025. https://kpmg.com/us/en/media/news/trust-in-ai-2025.html
 
-6. Liu, Jing. "When Usefulness Fuels Fear: The Paradox of Generative AI Dependence and the Mitigating Role of AI Literacy." *International Journal of Human-Computer Interaction* (2025). https://doi.org/10.1080/10447318.2025.1234567
+6. Liu, Jing. "When Usefulness Fuels Fear: The Paradox of Generative AI Dependence and the Mitigating Role of AI Literacy." *International Journal of Human-Computer Interaction* (2025). https://doi.org/10.1080/10447318.2025.2544006
 
 7. Mick, David Glen, and Susan Fournier. "Paradoxes of Technology: Consumer Cognizance, Emotions, and Coping Strategies." *Journal of Consumer Research* 25, no. 2 (1998): 123–143. https://doi.org/10.1086/209531
 
-8. Sanz Sáiz, Beatriz, Andrew Cosgrove, and David Diasio. *How a License to Lead Can Transform Human Potential in an AI World*. EY AI Sentiment Index Study, 2025. https://www.ey.com/en_gl/artificial-intelligence/ai-sentiment-index
+8. Sanz Sáiz, Beatriz, Andrew Cosgrove, and David Diasio. *How a License to Lead Can Transform Human Potential in an AI World*. EY AI Sentiment Index Study, 2025. https://www.ey.com/en_gl/insights/ai/how-a-license-to-lead-can-transform-human-potential-in-an-ai-world
 
 9. Slovic, Paul. "Perception of Risk." *Science* 236, no. 4799 (1987): 280–285. https://www.science.org/doi/10.1126/science.3563507
 

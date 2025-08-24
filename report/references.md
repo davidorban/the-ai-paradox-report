@@ -5,27 +5,27 @@
 ### Core References (Cited in Report)
 
 1. **Beck, Ulrich.** *Risk Society: Towards a New Modernity*. London: Sage Publications, 1992.  
-   https://uk.sagepub.com/en-gb/eur/risk-society/book205094  
+   https://uk.sagepub.com/en-gb/eur/risk-society/book203184  
    *Introduces the idea that technological progress generates prosperity while simultaneously producing systemic risks.*
 
 2. **Du, Shuili, and Chao Xie.** "Paradoxes of Artificial Intelligence in Consumer Markets: Ethical Challenges and Opportunities." *Journal of Business Research* 129 (2021): 961–974.  
-   https://doi.org/10.1016/j.jbusres.2020.11.053  
+   https://www.sciencedirect.com/science/article/abs/pii/S0148296320305312  
    *Shows how consumers adopt AI for utility while harboring ethical and social concerns.*
 
 3. **Jasanoff, Sheila, and Sang-Hyun Kim, eds.** *Dreamscapes of Modernity: Sociotechnical Imaginaries and the Fabrication of Power*. Chicago: University of Chicago Press, 2015.  
-   https://press.uchicago.edu/ucp/books/book/chicago/D/bo20865521.html  
+   https://press.uchicago.edu/ucp/books/book/chicago/D/bo20836025.html  
    *Explains how societies imagine technologies as simultaneously promising and threatening.*
 
 4. **Jovchelovitch, Sandra.** "Re-thinking the Diversity of Knowledge: Cognitive Polyphasia, Belief and Representation." *Psychology and Society* 5 (2002): 121–138.  
-   http://www.psychologyandsociety.org/jovchelovitch.pdf  
+   https://www.researchgate.net/publication/30522722_Re-thinking_the_diversity_of_knowledge_Cognitive_polyphasia_belief_and_representation  
    *Introduces the concept of cognitive polyphasia, where individuals hold contradictory beliefs at once.*
 
 5. **KPMG.** *The American Trust in AI Paradox: Adoption Outpaces Governance*. 2025.  
-   https://kpmg.com/us/en/articles/2025/trust-in-ai-paradox.html  
+   https://kpmg.com/us/en/media/news/trust-in-ai-2025.html  
    *Survey evidence showing high adoption of AI despite persistent distrust and governance concerns.*
 
 6. **Liu, Jing.** "When Usefulness Fuels Fear: The Paradox of Generative AI Dependence and the Mitigating Role of AI Literacy." *International Journal of Human-Computer Interaction* (2025).  
-   https://doi.org/10.1080/10447318.2025.1234567  
+   https://doi.org/10.1080/10447318.2025.2544006  
    *Demonstrates how perceived usefulness of AI increases both reliance and fear.*
 
 7. **Mick, David Glen, and Susan Fournier.** "Paradoxes of Technology: Consumer Cognizance, Emotions, and Coping Strategies." *Journal of Consumer Research* 25, no. 2 (1998): 123–143.  
@@ -33,7 +33,7 @@
    *Classic study of consumer ambivalence toward technology.*
 
 8. **Sanz Sáiz, Beatriz, Andrew Cosgrove, and David Diasio.** *How a License to Lead Can Transform Human Potential in an AI World*. EY AI Sentiment Index Study, 2025.  
-   https://www.ey.com/en_gl/artificial-intelligence/ai-sentiment-index  
+   https://www.ey.com/en_gl/insights/ai/how-a-license-to-lead-can-transform-human-potential-in-an-ai-world  
    *Finds leaders embrace AI for advantage while worrying about ethical and societal implications.*
 
 9. **Slovic, Paul.** "Perception of Risk." *Science* 236, no. 4799 (1987): 280–285.  

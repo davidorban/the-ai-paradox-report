@@ -4,12 +4,12 @@
 
 Your repository is now configured for GitHub Pages! Follow these steps to publish it:
 
-### Step 0: Add Required Files
+### Step 0: Verify Required Files
 
-Before pushing to GitHub, you need to add:
+Before pushing to GitHub, ensure you have:
 
-1. **Cover Image**: Save the AI Paradox cover image as `/assets/ai-paradox-cover.jpg`
-2. **PDF Report**: Save the PDF version as `/report/The-AI-Paradox-Report.pdf`
+1. ✅ **Cover Image**: Located at `/report/ai-paradox-report-cover.jpg`
+2. ✅ **PDF Report**: Located at `/report/The AI Paradox Report - David Orban.pdf`
 
 ### Step 1: Push to GitHub
 

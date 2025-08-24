@@ -294,6 +294,12 @@
             color: var(--gray-dark);
         }
         
+        /* Cover image hover effect */
+        .hero a img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3) !important;
+        }
+        
         @media (max-width: 768px) {
             h1 {
                 font-size: 1.8rem;
@@ -313,7 +319,10 @@
     <div class="container">
         <div class="hero">
             <div style="text-align: center; margin-bottom: 2rem;">
-                <img src="report/ai-paradox-report-cover.jpg" alt="The AI Paradox Report Cover" style="max-width: 400px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                <a href="report/The%20AI%20Paradox%20Report%20-%20David%20Orban.pdf" title="Download PDF Report">
+                    <img src="report/ai-paradox-report-cover.jpg" alt="The AI Paradox Report Cover - Click to download PDF" style="max-width: 400px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer;">
+                </a>
+                <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--gray-medium); font-style: italic;">Click cover to download PDF</p>
             </div>
             <h1>The AI Paradox Report</h1>
             <p class="subtitle">Early Adopters Love AI But Fear Its Future</p>

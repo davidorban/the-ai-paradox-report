@@ -14,6 +14,8 @@
 
 **[View the interactive report on GitHub Pages →](https://davidorban.github.io/the-ai-paradox-report)**
 
+📥 **[Download PDF Report](https://davidorban.github.io/the-ai-paradox-report/report/The%20AI%20Paradox%20Report%20-%20David%20Orban.pdf)**
+
 ## 📊 Overview
 
 This repository contains a complete analysis of AI sentiment among 23 early adopters, uncovering what we call **"The Pragmatic Paradox"** - where 61% of users experience high personal benefits from AI while harboring significant concerns about its societal impact.

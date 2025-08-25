@@ -294,6 +294,46 @@
             color: var(--gray-dark);
         }
         
+        /* Video embed styling */
+        .video-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-right: 4px solid transparent;
+            border-image: linear-gradient(180deg, var(--blue-primary) 0%, var(--red-primary) 100%);
+            border-image-slice: 1;
+        }
+        
+        .video-container h2 {
+            color: var(--blue-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        .video-container p {
+            color: var(--gray-medium);
+            margin-top: 1rem;
+        }
+        
         /* Cover image hover effect */
         .hero a img:hover {
             transform: scale(1.02);
@@ -353,6 +393,18 @@
             <p>This research uncovers a fascinating paradox in artificial intelligence adoption: the same people driving AI innovation and usage are increasingly worried about its societal implications. Through analysis of 23 early AI adopters, we identify "The Pragmatic Paradox" - a phenomenon where 61% of users experience significant personal benefits from AI while simultaneously harboring deep concerns about its broader impact on society.</p>
         </div>
         
+        <div class="video-container">
+            <h2>📹 Watch: Author's Presentation</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/ND3WIA7yVQE" 
+                        title="The AI Paradox Report - David Orban" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <p>David Orban discusses the key findings and implications of The AI Paradox Report, exploring how early adopters navigate the tension between personal benefits and societal concerns.</p>
+        </div>
+        
         <div class="grid">
             <div class="card">
                 <h2>📊 The Research</h2>
@@ -398,7 +450,7 @@
             <h2>Explore the Research</h2>
             <a href="https://github.com/davidorban/the-ai-paradox-report" class="btn">GitHub Repository</a>
             <a href="data/survey_data_anonymized.md" class="btn btn-secondary">View Data</a>
-            <a href="src/analysis_code.py" class="btn btn-secondary">Analysis Code</a>
+            <a href="https://github.com/davidorban/the-ai-paradox-report" class="btn btn-secondary">View Source Code</a>
         </div>
     </div>
     
